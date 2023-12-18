@@ -1,0 +1,175 @@
+body {
+    background-image: url('./imagens/Black\ Orange\ Modern\ Happy\ Halloween\ Your\ Story.png');
+}
+header {
+    background-color: black;
+    
+}
+
+.cabecalho img {
+    height: 300px;
+    margin-left: 40%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a :link {
+    color: rgb(255, 255, 255);
+} 
+
+a :active {
+    color: chocolate;
+}
+
+a :hover {
+    color: yellow;
+}
+a {
+    text-decoration: none;
+}
+
+.menu {
+    background-color: coral;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.menu li {
+    margin: 30px;
+    font-size: 16pt;
+    
+}
+
+#botao {
+    position: fixed;
+    position: fixed; /*posição fixa na tela*/
+    top: 75%; /*posição no top*/
+    left: 0%; /*posição lado esquerdo*/
+    width: 100%; /*largura do menu*/
+    height: 90px; /*altura do menu*/
+
+    
+}
+
+.apresentacao img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.apresentacao {
+    width: 100%;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.historia {
+    height: 600px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    margin: 30px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.historia p {
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table {
+    margin-left: 10%;
+    margin-right: 4%;
+}
+.banneringresso {
+    width: 50%;
+    margin: 3%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+blockquote {
+    height: 770px;
+    width: 1500px;
+    padding: 100px;
+    margin: 5%;
+    background-color: rgb(30, 30, 56);
+}
+
+blockquote h1 {
+    color: chocolate;
+    font-size: 60pt;
+    text-align: center;
+}
+
+blockquote h2 {
+    color: chocolate;
+    font-size: 40pt;
+    text-align: center;
+}
+
+.programacao {
+    height: 730px;
+    padding: 100px;
+}
+.programacao p {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
+}
+
+.programacao h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    color: rgb(249, 213, 105);
+}
+.programacao h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(249, 213, 105);
+}
+
+.contato {
+    height: 770px;
+    margin: 35%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background: rgb(99, 80, 116);
+    width: 360px;
+    padding: 20px;
+    color: white;
+    font-size: 14pt;
+}
+
+.contato p {
+    margin-top: 90px;
+}
+
+footer {
+    background-color:coral;
+    height: 25px;
+    text-align: center;
+   
+    
+}
+
+footer p {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
